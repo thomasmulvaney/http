@@ -1,0 +1,4 @@
+{:name http
+ :version "0.1.0-alpha"
+ :description "A simple HTTP server"
+ :dependencies []}
