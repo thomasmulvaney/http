@@ -1,0 +1,6 @@
+before_script:
+  - git clone git://github.com/pixie-lang/dust
+  - export PATH=$PATH:$PWD/dust/
+
+script:
+  - dust test
