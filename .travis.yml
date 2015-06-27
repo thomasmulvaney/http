@@ -3,4 +3,5 @@ before_script:
   - export PATH=$PATH:$PWD/dust/
 
 script:
+  - dust get-deps
   - dust test
