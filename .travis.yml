@@ -1,4 +1,5 @@
 before_script:
+  - sudo apt-get install libffi-dev libedit-dev libboost-all-dev
   - wget https://github.com/pixie-lang/pixie/releases/download/0.1/pixie-Linux-x86_64-0.1-2-gb8bbd15.tar.bz2 -O /tmp/pixie.tar.bz2
   - tar -xvf /tmp/pixie.tar.bz2
   - export PATH=$PATH:$PWD/pixie/
